@@ -33,7 +33,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
         ThunderImageUI.BorderSizePixel = 0
         ThunderImageUI.Position = UDim2.new(0.0, 0, 0.0, 0)
         ThunderImageUI.Size = UDim2.new(0, 50, 0, 50)
-        ThunderImageUI.Image = "http://www.roblox.com/asset/?id=12511245920"
+        ThunderImageUI.Image = "http://www.roblox.com/asset/?id=12564267060"
 
 local SOMEXHUB = {}
 local UserInputService = game:GetService("UserInputService")
@@ -122,13 +122,13 @@ local pfp = "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Pla
 function Update:Window(text,logo,keybind)
 	local uihide = false
 	local abc = false
-	local logo = logo or 12511245920
+	local logo = logo or 12564267060
 	local currentpage = ""
 	local keybind = keybind or Enum.KeyCode.RightControl
 	local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 	
 	local PADOXHUB = Instance.new("ScreenGui")
-	PADOXHUB.Name = "ZEN HUB By King's Hub"
+	PADOXHUB.Name = "CludeHub"
 	PADOXHUB.Parent = game.CoreGui
 	PADOXHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -164,7 +164,7 @@ function Update:Window(text,logo,keybind)
  Logo.BackgroundTransparency = 1.000
  Logo.Position = UDim2.new(-0.01, 0,-0.170, 0)
  Logo.Size = UDim2.new(0, 55,0, 45)
-Logo.Image = "rbxassetid://12511245920"
+Logo.Image = "rbxassetid://12564267060"
 
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
@@ -186,7 +186,7 @@ Logo.Image = "rbxassetid://12511245920"
 	Hub.Position = UDim2.new(0, 150, 0, 0)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
-	Hub.Text = " Blox Fruit Update 18"
+	Hub.Text = " Blox Fruit Script"
 	Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.TextSize = 14.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -804,7 +804,7 @@ local postog12 = Instance.new("UIStroke")
  ImageLabel.BorderSizePixel = 0
  ImageLabel.Position = UDim2.new(-0.018, 0,-0.252, 0)
  ImageLabel.Size = UDim2.new(0, 45,0, 45)
- ImageLabel.Image = "rbxassetid://12511245920"
+ ImageLabel.Image = "rbxassetid://12564267060"
  ImageLabel.ImageColor3 = Color3.fromRGB(224,224,224)
  
  Space.Name = "Space"
@@ -838,7 +838,7 @@ local postog12 = Instance.new("UIStroke")
  ImageButton.Position = UDim2.new(0, 340, 0, 4)
  ImageButton.Size = UDim2.new(0, 23, 0, 23)
  ImageButton.ZIndex = 2
- ImageButton.Image = "rbxassetid://3926311105"
+ ImageButton.Image = "rbxassetid://12564267060"
  ImageButton.ImageColor3 = Color3.fromRGB(224,224,224)
  ImageButton.ImageRectOffset = Vector2.new(940, 784)
  ImageButton.ImageRectSize = Vector2.new(48, 48)
@@ -1155,7 +1155,7 @@ ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0, -5, 0, -5)
 ImageLabel.Size = UDim2.new(0, 45, 0, 45)
-ImageLabel.Image = "rbxassetid://12511245920"
+ImageLabel.Image = "rbxassetid://12564267060"
 ImageLabel.ImageColor3 = Color3.fromRGB(224,224,224)
 
 Space.Name = "Space"
